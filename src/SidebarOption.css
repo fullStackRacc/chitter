@@ -1,0 +1,26 @@
+.sidebarOption {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebarOption:hover {
+    background-color: #e8f5fe;
+    border-radius: 30px;
+    color: var(--chitter-color);
+    transition: color 0.3s ease-out;
+}
+
+.sidebarOption > .MuiSvgIcon-root {
+    padding: 20px;
+}
+
+.sidebarOption > h2 {
+    font-size: 20px;
+    margin-right: 20px;
+    font-weight: 800;
+}
+
+.sidebarOption--active {
+    color: var(--chitter-color);
+}

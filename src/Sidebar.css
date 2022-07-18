@@ -1,0 +1,26 @@
+.sidebar {
+    border-right: 1px solid var(--chitter-background);
+    flex: 0.3;
+    min-width: 250px;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.sidebar__tweet {
+    background-color: var(--chitter-color) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 50px !important;
+    margin-top: 20px !important;
+}
+
+.icon {
+    filter: invert(32%) sepia(86%) saturate(3106%) hue-rotate(243deg) brightness(100%) contrast(93%);
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
